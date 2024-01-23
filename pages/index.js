@@ -2,6 +2,7 @@ import Head from "next/head";
 import DesktopNav from "@/components/nav/DesktopNav";
 import { Box } from "@chakra-ui/react";
 import Header from "@/components/header/Header";
+import About from "@/components/about/About";
 export default function Home() {
   return (
     <>
@@ -19,7 +20,7 @@ export default function Home() {
       <main>
         <DesktopNav />
         <Header />
-        <Box h="100dvh"></Box>
+        <About />
       </main>
     </>
   );

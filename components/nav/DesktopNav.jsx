@@ -70,10 +70,10 @@ export default function DesktopNav() {
           {navData.mainNav.map((item) => (
             <ChakraLink as={Link} to={item.path} href={item.path}>
               <Heading
-                color={path === item.path ? "primary.400" : "white"}
+                color={"white"}
                 fontWeight="600"
                 _hover={{
-                  color: "primary.100",
+                  color: "primary.400",
                 }}
                 size="sm"
               >

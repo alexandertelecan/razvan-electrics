@@ -42,6 +42,10 @@ const navData = {
       path: "/",
     },
     {
+      text: "About",
+      path: "/#about",
+    },
+    {
       text: "Services",
       path: "/services",
     },
